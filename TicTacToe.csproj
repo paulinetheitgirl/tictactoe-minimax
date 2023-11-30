@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>TicTacToe</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<BaseOutputPath>$(SolutionDir)bin\$(Configuration)</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="resources\pixantiqua.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="resources\pixantiqua.ttf">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Raylib-cs" Version="5.0.0" />
+	</ItemGroup>
+
+</Project>
