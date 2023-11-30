@@ -1,5 +1,5 @@
 # tictactoe-minimax
-Player vs computer TicTacToe using the minimax algorithm, done in C# and uses the [C# port of Raylib](https://github.com/ChrisDill/Raylib-cs) by .@ChrisDill
+Player vs computer TicTacToe using the minimax algorithm, done in C# and uses the [C# port of Raylib](https://github.com/ChrisDill/Raylib-cs) by @ChrisDill
 # About the computer opponent
 The solution was inspired by this excellent [Medium article](https://medium.com/analytics-vidhya/artificial-intelligence-at-play-connect-four-minimax-algorithm-explained-3b5fc32e4a4f)
 about the well-known minimax algorithm. The article covers the game "Connect4", but the solution is also
