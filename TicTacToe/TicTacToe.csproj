@@ -10,16 +10,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="resources\pixantiqua.ttf" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="resources\pixantiqua.ttf">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Raylib-cs" Version="5.0.0" />
 	</ItemGroup>
 

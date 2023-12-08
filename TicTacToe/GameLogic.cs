@@ -1,13 +1,13 @@
 ﻿namespace TicTacToe
 {
-    enum PlayerState
+    public enum PlayerState
     {
         PLAYER_FOR_MAX = 1,
         DRAW = 0,
         PLAYER_FOR_MIN = -1
     }
 
-    internal class GameLogic
+    public class GameLogic
     {
         /// <summary>
         /// Integral representations of possible win patterns in TictacToe.
@@ -84,7 +84,7 @@
                 player == PlayerState.PLAYER_FOR_MAX ? new string(tempPlayerBoard) : playerForMaxBoard,
                 player == PlayerState.PLAYER_FOR_MIN ? new string(tempPlayerBoard) : playerForMinBoard);
         }
-        internal static (int, int) MiniMax(int[] currentBoardPositions,
+        public static (int, int) MiniMax(int[] currentBoardPositions,
             string playerForMaxBoard,
             string playerForMinBoard,
             PlayerState currentPlayer)
